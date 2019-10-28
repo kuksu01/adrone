@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family:'NSB';
+	src:url("../font/KR/NotoSansKR-Bold-Alphabetic.eot");
+	src:local(''), url("../font/KR/NotoSansKR-Bold.woff");
+}
+
+@font-face {
+	font-family:'NSM';
+	src:url("../font/KR/NotoSansKR-Medium-Alphabetic.eot");
+	src:local(''), url("../font/KR/NotoSansKR-Medium.woff");
+}
+
+@font-face {
+	font-family:'NSR';
+	src:url("../font/KR/NotoSansKR-Regular-Alphabetic.eot");
+	src:local(''), url("../font/KR/NotoSansKR-Regular.woff");
+}
+
+@font-face {
+	font-family:'PNB';
+	src:url("../font/ENG/ProximaNova-Bold.eot");
+	src:local(''), url("../font/ENG/Proxima Nova Bold.woff");
+}
+
+@font-face {
+	font-family:'PNR';
+	src:url("../font/ENG/ProximaNova-Regular.eot");
+	src:local(''), url("../font/ENG/ProximaNova-Regular.woff");
+}
+
+
+
+body {
+	overflow-x:hidden;
+}
+
+/*
+::-webkit-scrollbar, -moz-scrollbar, -ms-scrollbar, -o-scrollbar {
+	display:none;
+}
+*/
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+ul, li, ol { list-style:none; }
+
+a { font-family:'NSM'; font-size:18px; text-decoration:none; color:#FFF; }
+
+h2, h3 { font-family:"NSB"; font-size:48px; color:#FFF; }
+
+p { font-family:'NSR'; font-size:18px; color:#5e6372; }
+
+.dot li { font-family:'PNR', Regular; font-size:18px; color:#5e6372; }
+
+.container { width:100%; height:100%; }
+
+.clear { clear:both; }
+
+
+
+
+
+
+
+
+
+
+
